@@ -1,0 +1,17 @@
+.menu {
+  margin-top: 3rem;
+}
+
+.menu__lista {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu__item {
+  margin: 1.5rem;
+}
+
+.menu__item--link {
+  font-size: larger;
+  text-decoration: none;
+}
