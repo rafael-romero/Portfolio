@@ -1,0 +1,25 @@
+.habilidades {
+  margin: 4rem 0 4rem;
+}
+
+.habilidades__parrafo {
+  text-align: center;
+}
+
+.habilidades__contenedor__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2% 3%;
+  border: 2px solid red;
+  height: 21rem;
+}
+
+.habilidades__contenedor__item {
+  border: 2px solid blue;
+  width: 22%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

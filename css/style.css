@@ -1,3 +1,16 @@
+:root {
+  --color-violeta: #5c3b95;
+  --color-crema: #f1b9ba;
+  --color-naranja: #e76f53;
+  --montserrat: "Montserrat", sans-serif;
+}
+
+.body {
+  width: 62rem;
+  margin: 0 auto;
+  background: var(--color-crema);
+}
+
 .header {
   display: flex;
   justify-content: space-around;
