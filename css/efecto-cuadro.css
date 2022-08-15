@@ -1,0 +1,9 @@
+.foto-personal {
+  border: 3px solid green;
+  border-radius: 63% 37% 33% 67% / 71% 31% 69% 29%;
+  transition: all 1s;
+}
+
+.foto-personal:hover {
+  border-radius: 66% 34% 65% 35% / 30% 86% 14% 70%;
+}
