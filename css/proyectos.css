@@ -1,0 +1,45 @@
+.proyectos__contenedor {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0 2rem;
+}
+
+.proyectos__contenedor--texto-y-botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyectos__titulo {
+  margin: 2rem;
+}
+
+.proyectos__contenedor__botones {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.proyectos__contenedor__botones > a {
+  margin-right: 2rem;
+}
+
+.proyecto__botones {
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 10%;
+  text-decoration: none;
+  color: var(--color-naranja);
+}
+
+.proyecto__botones:active {
+  color: inherit;
+}
+
+.proyectos__contenedor > iframe {
+  width: 50%;
+  height: 20rem;
+  border: yellow 3px solid;
+}
