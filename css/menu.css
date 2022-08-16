@@ -12,6 +12,11 @@
 }
 
 .menu__item--link {
-  font-size: larger;
+  font-size: x-large;
   text-decoration: none;
+  color: var(--color-naranja);
+}
+
+.menu__item--link:active {
+  color: inherit;
 }
