@@ -14,7 +14,10 @@
 .presentacion__subtitulo,
 .sobre-mi__titulo,
 .habilidades__titulo,
-.hblandas__titulo {
+.hblandas__titulo,
+.formacion__titulo,
+.proyectos__titulo--de-seccion,
+.pasatiempos__titulo {
   font-size: 2.5rem;
   margin: 0.5rem;
   text-align: center;
@@ -23,16 +26,19 @@
 .presentacion__texto,
 .sobre-mi__parrafo,
 .habilidades__parrafo,
-.hblandas__parrafo {
+.hblandas__parrafo,
+.formacion__parrafo,
+.proyectos__titulo,
+.pasatiempos__subtitulo {
   font-size: 2rem;
-  text-align: justify;
+  text-align: center;
   line-height: 2rem;
   margin: 1rem;
 }
 
-/* .presentacion__texto {
+.presentacion__texto {
   text-align: justify;
-} */
+}
 
 .redes__lista {
   display: flex;
