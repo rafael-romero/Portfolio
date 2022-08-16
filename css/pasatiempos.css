@@ -1,0 +1,26 @@
+.pasatiempos {
+  margin: 4rem 0 4rem;
+}
+
+.pasatiempos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2% 3%;
+  border: 2px solid red;
+  height: 21rem;
+}
+
+.pasatiempos__item {
+  border: 2px solid blue;
+  width: 22%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.pasatiempos__imagen {
+  width: 10rem;
+  height: 10rem;
+}
