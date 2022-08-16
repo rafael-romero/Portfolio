@@ -1,0 +1,11 @@
+.footer {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__titulo {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 2rem;
+}
