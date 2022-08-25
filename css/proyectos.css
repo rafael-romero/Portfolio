@@ -1,7 +1,11 @@
+.proyectos {
+  position: relative;
+}
+
 .proyectos__contenedor {
   display: flex;
   justify-content: space-around;
-  margin: 2rem 0 2rem;
+  margin: 3rem 0 3rem;
 }
 
 .proyectos__contenedor--texto-y-botones {
@@ -12,7 +16,7 @@
 }
 
 .proyectos__titulo {
-  margin: 2rem;
+  font-size: 2.5rem;
 }
 
 .proyectos__contenedor__botones {
@@ -27,11 +31,18 @@
 .proyecto__botones {
   margin: 2rem;
   padding: 1rem;
-  border: 2px solid black;
+  border: 3px solid var(--color-violeta);
   background-color: transparent;
   border-radius: 10%;
   text-decoration: none;
-  color: var(--color-naranja);
+  font-weight: 700;
+  font-size: larger;
+  color: var(--color-violeta);
+  transition: transform 1s;
+}
+
+.proyecto__botones:hover {
+  transform: translateY(-1rem);
 }
 
 .proyecto__botones:active {
@@ -41,5 +52,7 @@
 .proyectos__contenedor > iframe {
   width: 50%;
   height: 20rem;
-  border: yellow 3px solid;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(92, 59, 149, 1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(92, 59, 149, 1);
+  box-shadow: 10px 10px 0px 0px rgba(92, 59, 149, 1);
 }
