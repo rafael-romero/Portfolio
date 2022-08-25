@@ -1,5 +1,5 @@
 .foto-personal {
-  border: 3px solid var(--color-crema);
+  border: 3px solid var(--color-naranja);
   border-radius: 63% 37% 33% 67% / 71% 31% 69% 29%;
   transition: all 1s;
 }
