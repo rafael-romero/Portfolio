@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/contacto.css" />
     <link rel="stylesheet" href="css/animacion-menu.css" />
     <link rel="stylesheet" href="css/boton.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/separadores-de-seccion.css" />
     <link rel="stylesheet" href="css/boton-hacia-arriba.css" />
   </head>
@@ -506,11 +507,10 @@
       </section>
 
       <section id="formacion" class="formacion">
-        <h2 class="formacion__titulo">Formacion Academica</h2>
-        <p class="formacion__parrafo">Cursos desarrollados</p>
+        <h2 class="formacion__titulo" data-aos="flip-up" data-aos-duration="1200">Formacion Academica</h2>
         <div class="formacion__contenedor__imagenes">
           <ul class="formacion__lista">
-            <li class="formacion__item img-container">
+            <li class="formacion__item img-container" data-aos="flip-left" data-aos-duration="1200">
               <img
                 src="./img/formacion academica/ORACLE-ONE.jpeg"
                 alt="logo-Programa-ONE-Next-Education"
@@ -530,7 +530,7 @@
                 nivel.
               </p>
             </li>
-            <li class="formacion__item img-container">
+            <li class="formacion__item img-container" data-aos="flip-left" data-aos-duration="1200">
               <img
                 src="./img/formacion academica/r-argentina-programa.jfif"
                 alt="logo-r-argentina-programa"
@@ -553,7 +553,7 @@
                 cada uno.
               </p>
             </li>
-            <li class="formacion__item img-container">
+            <li class="formacion__item img-container" data-aos="flip-left" data-aos-duration="1200">
               <img
                 src="./img/formacion academica/codo-a-codo.png"
                 alt="logo-Codo-a-Codo"
@@ -569,7 +569,7 @@
                 Su modalidad de cursada es online, con una duracion de 4 meses.
               </p>
             </li>
-            <li class="formacion__item img-container">
+            <li class="formacion__item img-container" data-aos="flip-left" data-aos-duration="1200">
               <img
                 src="./img/formacion academica/arg-programa.png"
                 alt="logo-Argentina Programa"
@@ -589,7 +589,7 @@
                 etapas.
               </p>
             </li>
-            <li class="formacion__item img-container">
+            <li class="formacion__item img-container" data-aos="flip-left" data-aos-duration="1200">
               <img
                 src="./img/formacion academica/FreeCodeCamp_logo.png"
                 alt="logo-Free-Code-Camp"
@@ -604,7 +604,7 @@
                 buen recurso para iniciarse y empezar en este mundillo.
               </p>
             </li>
-            <li class="formacion__item img-container">
+            <li class="formacion__item img-container" data-aos="flip-left" data-aos-duration="1200">
               <img
                 src="./img/formacion academica/LogoInformatica+UNLP.png"
                 alt="logo-Universidad-Nacional-de-La-Plata"
@@ -642,44 +642,46 @@
       </section>
 
       <section id="proyectos" class="proyectos">
-        <h2 class="proyectos__titulo--de-seccion">Proyectos</h2>
+        <h2 class="proyectos__titulo--de-seccion" data-aos="flip-up" data-aos-duration="1200">Proyectos</h2>
         <div class="proyectos__contenedor">
           <div class="proyectos__contenedor--texto-y-botones">
             <h3 class="proyectos__titulo">Juego del Ahorcado</h3>
             <div class="proyectos__contenedor__botones">
               <a
                 href="https://github.com/rafael-romero/alura-oracle-ahorcado-game"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Repositorio</a
               >
               <a
                 href="https://rafael-romero.github.io/alura-oracle-ahorcado-game/"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Ver Demo</a
               >
             </div>
           </div>
-          <iframe src="videos/Ahorcado-Game.mp4" frameborder="0"></iframe>
+          <iframe src="videos/Ahorcado-Game.mp4" frameborder="0" data-aos="fade-left" data-aos="zoom-in" data-aos-duration="1200"></iframe>
         </div>
         <div class="proyectos__contenedor">
           <iframe
             src="videos/Encriptador-de-texto.mp4"
             frameborder="0"
+            data-aos="fade-right"
+            data-aos="zoom-in" data-aos-duration="1200"
           ></iframe>
           <div class="proyectos__contenedor--texto-y-botones">
             <h3 class="proyectos__titulo">Encriptador de Texto</h3>
             <div class="proyectos__contenedor__botones">
               <a
                 href="https://github.com/rafael-romero/Alura-Oracle-Encriptador"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Repositorio</a
               >
               <a
                 href="https://rafael-romero.github.io/Alura-Oracle-Encriptador/"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Ver Demo</a
               >
@@ -692,35 +694,34 @@
             <div class="proyectos__contenedor__botones">
               <a
                 href="https://github.com/rafael-romero/memotest"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Repositorio</a
               >
               <a
                 href="https://rafael-romero.github.io/memotest/"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Ver Demo</a
               >
             </div>
           </div>
-          <iframe src="videos/Memotest.mp4" frameborder="0"></iframe>
+          <iframe src="videos/Memotest.mp4" frameborder="0" data-aos="fade-left" data-aos="zoom-in" data-aos-duration="1200"></iframe>
         </div>
         <div class="proyectos__contenedor">
-          <iframe src="videos/Simon-Dice.mp4" frameborder="0"></iframe>
-
+          <iframe src="videos/Simon-Dice.mp4" frameborder="0" data-aos="fade-right" data-aos="zoom-in" data-aos-duration="1200"></iframe>
           <div class="proyectos__contenedor--texto-y-botones">
             <h3 class="proyectos__titulo">Simon Dice</h3>
             <div class="proyectos__contenedor__botones">
               <a
                 href="https://github.com/rafael-romero/Simon-Says"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Repositorio</a
               >
               <a
                 href="https://rafael-romero.github.io/Simon-Says/"
-                class="proyecto__botones"
+                class="proyecto__botones boton"
                 target="_blank"
                 >Ver Demo</a
               >
@@ -730,61 +731,58 @@
       </section>
 
       <section id="pasatiempos" class="pasatiempos">
-        <h2 class="pasatiempos__titulo">Pasatiempos</h2>
-        <h3 class="pasatiempos__subtitulo">
-          Actividades que disfruto en tiempos libres
-        </h3>
+        <h2 class="pasatiempos__titulo" data-aos="flip-up" data-aos-duration="1200">Pasatiempos</h2>
         <ul class="pasatiempos__lista">
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-right" data-aos-duration="1500">
             <img
               src="img/pasatiempos/family.png"
               alt="disfrutar-de-la-familia"
               class="pasatiempos__imagen"
             />
           </li>
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-right" data-aos-duration="1500">
             <img
               src="img/pasatiempos/cocinando.png"
               alt="cocinar"
               class="pasatiempos__imagen"
             />
           </li>
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-left" data-aos-duration="1500">
             <img
               src="img/pasatiempos/ver_peliculas2.png"
               alt="ver-peliculas"
               class="pasatiempos__imagen"
             />
           </li>
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-left" data-aos-duration="1500">
             <img
               src="img/pasatiempos/videogame.png"
               alt="jugar-videojuegos"
               class="pasatiempos__imagen"
             />
           </li>
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-right" data-aos-duration="1500">
             <img
               src="img/pasatiempos/viajar.png"
               alt="viajar"
               class="pasatiempos__imagen"
             />
           </li>
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-right" data-aos-duration="1500">
             <img
               src="img/pasatiempos/acampar.png"
               alt="acampar"
               class="pasatiempos__imagen"
             />
           </li>
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-left" data-aos-duration="1500">
             <img
               src="img/pasatiempos/jugar-futbol.png"
               alt="jugar-futbol"
               class="pasatiempos__imagen"
             />
           </li>
-          <li class="pasatiempos__item">
+          <li class="pasatiempos__item" data-aos="slide-left" data-aos-duration="1500">
             <img
               src="img/pasatiempos/escuchar-musica.png"
               alt="escuchar-musica"
@@ -860,5 +858,9 @@
       <h3 class="footer__titulo">&#xae; Desarrollado por Rafael Romero 2022</h3>
     </footer>
     <script src="boton-hacia-arriba.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
