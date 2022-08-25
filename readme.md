@@ -4,6 +4,11 @@ Portfolio
 
 En este repositorio armare mi portfolio con una muestra de todo lo que eh estudiado y realizado desde que arranque hace unos meses a estudiar programacion.
 
+aclaracion sobre la utilizacion de la libreria AOS por CDN
+-Using package managers Install aos package:
+yarn add aos@next
+or npm install --save aos@next
+
 ## ideas
 
 -el fondo del formulario de contacto debe estar difuminado/esmerilado o transparente oscuro segun la combinacion de colores
