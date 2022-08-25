@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/proyectos.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/pasatiempos.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
     <link rel="stylesheet" href="css/animacion-menu.css" />
     <link rel="stylesheet" href="css/separadores-de-seccion.css" />
     <link rel="stylesheet" href="css/boton-hacia-arriba.css" />
@@ -790,6 +791,61 @@
             />
           </li>
         </ul>
+      </section>
+
+      <section id="contacto" class="contacto">
+        <form class="contacto__datos" action="https://formspree.io/f/mrgdbbyw" method="post" data-aos="fade-right" data-aos-duration="1200">
+          <h2 class="contacto__datos--titulo">CONTACTO</h2>
+          <label for="nombre-contacto">Nombre
+            <input
+              type="text"
+              class="contacto__datos--nombre"
+              placeholder="Nombre"
+              name="name"
+              required
+              size="40"
+              required
+            /></label>
+          <label for="email-contacto">E-mail
+            <input
+              type="email"
+              class="contacto__datos--email"
+              placeholder="E-mail"
+              name="email"
+              required
+              size="40"
+              required
+            /></label>
+          <label for="contacto-asunto">Asunto
+            <input
+              type="text"
+              class="contacto__datos--asunto"
+              placeholder="Asunto del mensaje"
+              name="subject"
+              required
+              size="40"
+              required
+            /></label>
+          <label for="mensaje-contacto">Mensaje
+            <textarea
+              class="contacto__datos--textarea"
+              placeholder="Mensaje"
+              name="message"
+              required
+              cols="38"
+              rows="4"
+              required
+            ></textarea>
+          </label>
+          <input type="submit" value="Enviar Mensaje" class="contacto__datos--boton" name="submit"></input>
+        </form>
+        <div class="contacto__contenedor--imagen" data-aos="fade-left" data-aos-duration="1200">
+          <img
+            src="img/contacto.jpg"
+            alt="imagen-de-contacto-a-traves-de-formulario"
+            class="contacto__imagen"
+          />
+        </div>
       </section>
 
       <div class="botonArriba__contenedor"> 
