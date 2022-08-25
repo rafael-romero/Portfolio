@@ -1,3 +1,18 @@
 .sobre-mi {
-  margin: 5rem 10rem 5rem 10rem;
+  height: 100vh;
+}
+
+.sobre-mi__titulo {
+  margin: 5vh 0;
+}
+
+.sobre-mi__contenedor--texto {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.sobre-mi__parrafo {
+  text-align: justify;
+  line-height: 2.5rem;
 }
