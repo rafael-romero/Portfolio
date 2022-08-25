@@ -1,9 +1,7 @@
 .habilidades-blandas {
-  margin: 4rem 0 4rem;
-}
-
-.hblandas__parrafo {
-  text-align: center;
+  height: 100vh;
+  position: relative;
+  margin: 0;
 }
 
 .hblandas__lista {
@@ -11,12 +9,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2% 3%;
-  border: 2px solid red;
-  height: 32rem;
+  height: 80vh;
 }
 
 .hblandas__item {
-  border: 2px solid blue;
   width: 30%;
   height: 15rem;
   display: flex;
@@ -27,6 +23,6 @@
 }
 
 .hblandas__item > img {
-  margin-left: 4.5rem;
+  margin: auto;
   margin-bottom: 1rem;
 }
