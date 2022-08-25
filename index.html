@@ -35,14 +35,17 @@
 
   <body class="body">
     <header class="header">
-      <a href="https://github.com/rafael-romero/Portfolio" target="_blank"
-        ><img
-          src="img/Iconos/rafael-romero-logo-PhotoRoom.png"
-          alt="foto-de-Rafael-Romero"
-          width="250"
-          height="200"
-        />
-      </a>
+      <div class="contenedor__logo logo">
+        <a href="https://github.com/rafael-romero/Portfolio" target="_blank"
+          ><img
+            src="img/Iconos/rafael-romero-logo-PhotoRoom.png"
+            alt="logo-de-Rafael-Romero"
+            width="250"
+            height="200"
+            
+          />
+        </a>
+      </div>
       <nav class="menu">
         <ul class="menu__lista">
           <li class="menu__item ">
@@ -82,18 +85,13 @@
     </header>
     
     <main class="main">
-      <section class="contenedor-presentacion">
-        <div class="presentacion">
-          <h1 class="presentacion__titulo">Hola soy Rafa...</h1>
-          <h2 class="presentacion__subtitulo">Front-end Developer</h2>
-          <p class="presentacion__texto">
-            Me encuentro en una nueva etapa de mi vida, marcada por el estudio y
-            la ambicion del crecimiento profesional, muy motivado y feliz de
-            poder aprender algo nuevo cada dia.
-          </p>
+      <section class="presentacion">
+        <div class="presentacion__contenedor">
+          <h1 class="presentacion__titulo" data-aos="fade-down-right" data-aos-duration="1500" >Hola soy Rafa &#128075;</h1>
+          <h2 class="presentacion__subtitulo" data-aos="fade-down-right" data-aos-duration="1500">Front-end Developer</h2>
           <div class="redes__sociales">
             <ul class="redes__lista">
-              <li class="redes__lista__item">
+              <li class="redes__lista__item" >
                 <label for="github"
                   ><a
                     id="github"
@@ -103,12 +101,13 @@
                     ><img
                       src="img/Iconos/github-logo.svg"
                       alt="logo-github"
-                      width="50"
-                      height="50"
+                      width="80"
+                      height="80"
+                      data-aos="fade-up" data-aos-duration="2000"
                     /> </a
                 ></label>
               </li>
-              <li class="redes__lista__item">
+              <li class="redes__lista__item" >
                 <label for="linkedin"
                   ><a
                     id="linkedin"
@@ -118,11 +117,13 @@
                     ><img
                       src="img/Iconos/linkedin-logo.svg"
                       alt="logo-linkedin"
-                      width="50"
-                      height="50" /></a
-                ></label>
+                      width="80"
+                      height="80" 
+                      data-aos="fade-up" data-aos-duration="2000"
+                    /> </a>
+                  </label>
               </li>
-              <li class="redes__lista__item">
+              <li class="redes__lista__item" >
                 <label for="cv"
                   ><a
                     id="cv"
@@ -133,20 +134,22 @@
                     ><img
                       src="img/Iconos/cv.png"
                       alt="dibujo-curriculum-vitae"
-                      width="50"
-                      height="50" /></a
+                      width="80"
+                      height="80" data-aos="fade-up" data-aos-duration="2000"/></a
                 ></label>
               </li>
             </ul>
           </div>
         </div>
-        <img
-          src="img/foto-personal.png"
-          width="250"
-          height="300"
-          alt="imagen-de-Rafael-Romero"
-          class="foto-personal"
-        />
+        <div class="presentacion__foto-personal" data-aos="fade-left" data-aos-duration="1500">
+          <img
+            src="img/foto-personal.png"
+            width="250"
+            height="300"
+            alt="imagen-de-Rafael-Romero"
+            class="foto-personal"
+          />
+        </div>
               <!--separador  -->
         <div class="custom-shape-divider-bottom-1661361082">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
