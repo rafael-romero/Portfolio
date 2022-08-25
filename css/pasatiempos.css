@@ -1,5 +1,11 @@
 .pasatiempos {
-  margin: 4rem 0 4rem;
+  background-color: var(--color-crema);
+  height: 100vh;
+  border-radius: 15% 15% 130% 250%;
+}
+
+.pasatiempos__titulo {
+  padding-bottom: 4rem;
 }
 
 .pasatiempos__lista {
@@ -7,12 +13,11 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2% 3%;
-  border: 2px solid red;
+
   height: 21rem;
 }
 
 .pasatiempos__item {
-  border: 2px solid blue;
   width: 22%;
   height: 10rem;
   display: flex;

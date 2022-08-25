@@ -1,22 +1,37 @@
+.logo:hover {
+  transition: 2s;
+  filter: blur(5px);
+}
+
 .menu {
   margin-top: 3rem;
+  width: 100%;
 }
 
 .menu__lista {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .menu__item {
-  margin: 1.5rem;
+  margin-right: 1rem;
+  text-align: start;
+  line-height: 2rem;
 }
 
 .menu__item--link {
-  font-size: x-large;
+  font-size: large;
   text-decoration: none;
-  color: var(--color-naranja);
+  color: var(--color-violeta);
 }
 
 .menu__item--link:active {
   color: inherit;
+}
+
+#menu-contacto {
+  font-size: x-large;
 }

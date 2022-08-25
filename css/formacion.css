@@ -1,5 +1,7 @@
 .formacion {
-  margin: 4rem 0 4rem;
+  background-color: var(--color-crema);
+  height: 100vh;
+  position: relative;
 }
 
 .formacion__lista {
@@ -7,12 +9,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2% 3%;
-  border: 2px solid red;
   height: 32rem;
 }
 
 .formacion__item {
-  border: 2px solid blue;
   width: 30%;
   height: 15rem;
   display: flex;
@@ -23,19 +23,11 @@
   position: relative;
 }
 
-/* .img-container {
-  width: 300px;
-  height: 200px;
-  position: relative;
-} */
-
 .img-container p {
   margin: auto;
   color: #fff;
   text-align: center;
-
-  line-height: 1rem;
-
+  line-height: 1.1rem;
   background: #000;
   transition: opacity 0.4s linear;
   cursor: pointer;
@@ -48,11 +40,17 @@
   padding: 0.5rem;
 }
 
+.formacion__item > img {
+  border-radius: 10%;
+}
+
 .img-container:hover p {
   opacity: 0.75;
+  border-radius: 10%;
 }
 
 .formacion__item--titulo {
   margin-top: 1.5rem;
   font-size: 1.5rem;
+  font-weight: 600;
 }

@@ -1,19 +1,66 @@
 :root {
   --color-violeta: #5c3b95;
+  --color-violeta-transparencia: rgba(92, 59, 149, 0.3);
   --color-crema: #f1b9ba;
+  --color-crema-transparencia: rgba(241, 185, 186, 0.3);
   --color-naranja: #e76f53;
-  --montserrat: "Montserrat", sans-serif;
+  --garamond: "Garamond", sans-serif;
+  --helvetica: Helvetica;
+}
+
+html {
+  margin: auto;
 }
 
 .body {
-  width: 62rem;
+  /* width: 62rem; */
   margin: 0 auto;
-  background: var(--color-violeta);
-  font-family: var(--monnserrat);
-  color: var(--color-naranja);
+  background: var(--color-naranja);
+  font-family: var(--helvetica);
+  color: var(--color-violeta);
+  overflow-x: hidden;
+}
+
+.formacion,
+.pasatiempos,
+.habilidades,
+.habilidades-blandas {
+  margin-top: 2rem;
+}
+
+.presentacion__subtitulo,
+.sobre-mi__titulo,
+.habilidades__titulo,
+.hblandas__titulo,
+.formacion__titulo,
+.proyectos__titulo--de-seccion,
+.proyectos__titulo,
+.pasatiempos__titulo {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 1.5rem;
+  text-shadow: -5px 1px 3px var(--color-violeta-transparencia);
+}
+
+.sobre-mi__parrafo,
+.hblandas__item--subtitulo {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  margin: 1rem;
+  font-family: var(--garamond);
+  font-weight: 700;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
+  height: 30vh;
+  position: relative;
+}
+
+.footer {
+  background-color: var(--color-crema);
+  border-radius: 15% 15% 0 0;
 }
