@@ -1,0 +1,110 @@
+/* separador menu-presentacion */
+.custom-shape-divider-bottom-1661362759 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1661362759 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1661362759 .shape-fill {
+  fill: #f1b9ba;
+}
+/* separador presentacion-sobre-mi*/
+.custom-shape-divider-bottom-1661361082 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1661361082 svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 88px;
+}
+
+.custom-shape-divider-bottom-1661361082 .shape-fill {
+  fill: #e76f53;
+}
+/* separador habilidades bottom*/
+.custom-shape-divider-top-1661371403 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1661371403 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.custom-shape-divider-top-1661371403 .shape-fill {
+  fill: #f1b9ba;
+}
+/* separador habilidades top */
+
+.custom-shape-divider-top-1661371738 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1661371738 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1661371738 .shape-fill {
+  fill: var(--color-naranja);
+}
+/* separador proyectos */
+.custom-shape-divider-bottom-1661372799 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1661372799 svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 30px;
+}
+
+.custom-shape-divider-bottom-1661372799 .shape-fill {
+  fill: var(--color-naranja);
+}
+/*  */
+.divisor-contenedor-svg {
+  display: inline-block;
+}
