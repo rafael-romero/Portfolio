@@ -4,6 +4,7 @@
   --color-crema: #f1b9ba;
   --color-crema-transparencia: rgba(241, 185, 186, 0.3);
   --color-naranja: #e76f53;
+  --color-advertencia: #ea1818;
   --garamond: "Garamond", sans-serif;
   --helvetica: Helvetica;
 }
@@ -39,7 +40,7 @@ html {
   font-size: 3.5rem;
   font-weight: 800;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.6rem;
   text-shadow: -5px 1px 3px var(--color-violeta-transparencia);
 }
 
@@ -63,4 +64,8 @@ html {
 .footer {
   background-color: var(--color-crema);
   border-radius: 15% 15% 0 0;
+}
+
+.shape-fill {
+  z-index: -1;
 }
