@@ -32,12 +32,6 @@ form > label > input::placeholder {
   font-size: 1rem;
 }
 
-textarea::placeholder {
-  color: var(--color-violeta);
-  font-weight: 600;
-  font-size: 1rem;
-}
-
 .contacto__datos--titulo {
   margin-bottom: 0.5rem;
   text-align: center;
@@ -70,4 +64,33 @@ textarea::placeholder {
 
 .contacto__datos--boton:hover {
   transform: translateY(1rem) scale(1.2);
+}
+
+.ocultar {
+  opacity: 0;
+  transition: 3s;
+}
+
+.eliminar-span {
+  display: none;
+}
+
+.input-invalido {
+  border: 3px solid var(--color-advertencia);
+  border-radius: 7px;
+  color: var(--color-advertencia);
+}
+
+.input-invalido::placeholder {
+  color: var(--color-advertencia);
+}
+
+.label-invalido {
+  color: var(--color-advertencia);
+}
+
+.input-mensaje-error {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
 }
