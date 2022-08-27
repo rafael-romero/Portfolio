@@ -57,13 +57,13 @@
           </li>
           <li class="menu__item">
             <a href="#habilidades-blandas" class="menu__item--link animacion-menu"
-              >Habilidades Blandas</a
+              >SoftSkills</a
             >
           </li>
 
           <li class="menu__item">
             <a href="#formacion" class="menu__item--link animacion-menu"
-              >Formacion Academica</a
+              >Formacion</a
             >
           </li>
           <li class="menu__item">
@@ -128,8 +128,7 @@
                 <label for="cv"
                   ><a
                     id="cv"
-                    href="./files/Curriculum_Vitae_Rafael_Romero.docx"
-                    download="Curriculum Vitae de Rafael Romero"
+                    href="./files/Curriculum_Vitae_Rafael_Romero.pdf"
                     class="redes__lista__item--link"
                     target="_blank"
                     ><img
@@ -144,7 +143,7 @@
         </div>
         <div class="presentacion__foto-personal" data-aos="fade-left" data-aos-duration="1500">
           <img
-            src="img/foto-personal.png"
+            src="img/foto-con-efecto.jpg"
             width="250"
             height="300"
             alt="imagen-de-Rafael-Romero"
@@ -795,48 +794,62 @@
       <section id="contacto" class="contacto">
         <form class="contacto__datos" action="https://formspree.io/f/mrgdbbyw" method="post" data-aos="fade-right" data-aos-duration="1200">
           <h2 class="contacto__datos--titulo">CONTACTO</h2>
-          <label for="nombre-contacto">Nombre
+          <label for="nombre">Nombre
             <input
               type="text"
-              class="contacto__datos--nombre"
+              class="contacto__datos--nombre input"
               placeholder="Nombre"
-              name="name"
-              required
+              name="nombre"
               size="40"
               required
-            /></label>
-          <label for="email-contacto">E-mail
+              minlength="3"
+              maxlength="50"
+              data-tipo="nombre"
+            />
+            <span class="input-mensaje-error"></span>
+          </label>
+          <label for="email">E-mail
             <input
               type="email"
-              class="contacto__datos--email"
+              class="contacto__datos--email input"
               placeholder="E-mail"
               name="email"
-              required
               size="40"
               required
-            /></label>
-          <label for="contacto-asunto">Asunto
+              data-tipo="email"
+            />
+            <span class="input-mensaje-error"></span>
+          </label>
+          <label for="asunto">Asunto
             <input
               type="text"
-              class="contacto__datos--asunto"
+              class="contacto__datos--asunto input"
               placeholder="Asunto del mensaje"
-              name="subject"
-              required
+              name="asunto"
               size="40"
               required
-            /></label>
-          <label for="mensaje-contacto">Mensaje
+              minlength="5"
+              maxlength="50"
+              data-tipo="asunto"
+            />
+            <span class="input-mensaje-error"></span>
+          </label>
+          <label for="mensaje">Mensaje
             <textarea
-              class="contacto__datos--textarea"
-              placeholder="Mensaje"
-              name="message"
-              required
+              class="contacto__datos--textarea input"
+              name="mensaje"
               cols="38"
               rows="4"
               required
-            ></textarea>
+              minlength="30"
+              maxlength="300"
+              data-tipo="mensaje"
+            >
+            </textarea>
+            <span class="input-mensaje-error"></span>
           </label>
           <input type="submit" value="Enviar Mensaje" class="contacto__datos--boton" name="submit"></input>
+          <span class="input-mensaje-error" id="span-error"></span>
         </form>
         <div class="contacto__contenedor--imagen" data-aos="fade-left" data-aos-duration="1200">
           <img
@@ -857,10 +870,13 @@
     <footer class="footer">
       <h3 class="footer__titulo">&#xae; Desarrollado por Rafael Romero 2022</h3>
     </footer>
-    <script src="boton-hacia-arriba.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script src="boton-hacia-arriba.js"></script>
+    <!-- <script src="validaciones-contacto.js"></script> -->
+    <script src="app.js" type="module"></script>
+    <script src="envio-form.js"></script>
   </body>
 </html>

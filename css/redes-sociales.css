@@ -10,6 +10,7 @@
 .redes__lista__item {
   margin: 1rem;
   transition: transform 0.5s;
+  z-index: 1;
 }
 
 .redes__lista__item:hover {

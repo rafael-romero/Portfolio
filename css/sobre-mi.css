@@ -3,7 +3,7 @@
 }
 
 .sobre-mi__titulo {
-  margin: 5vh 0;
+  margin: 0;
 }
 
 .sobre-mi__contenedor--texto {
@@ -14,5 +14,5 @@
 
 .sobre-mi__parrafo {
   text-align: justify;
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
