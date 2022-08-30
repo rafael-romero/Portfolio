@@ -3,8 +3,6 @@ export function validar(input) {
   if (validadores[tipoDeInput]) {
     validadores[tipoDeInput](input);
   }
-  console.log("input recibido es  - -" + input);
-  console.log("tipo de input es: " + tipoDeInput);
 
   if (input.validity.valid) {
     input.parentElement.classList.remove("label-invalido");
@@ -85,7 +83,3 @@ function mostrarMensajeError(tipoDeInput, input) {
   });
   return mensaje;
 }
-
-//agregar efecto scroll navbar
-//falta hacer que sea todo responsive
-//rehacer cv en pdf
