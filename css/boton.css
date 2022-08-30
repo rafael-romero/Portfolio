@@ -2,21 +2,19 @@ a.boton {
   position: relative;
   display: block;
   padding: 25px 10px;
-  border-radius: 6px;
+  border-radius: 25px;
   text-align: center;
   font-weight: bold;
   max-width: 320px;
   height: 2rem;
   margin-bottom: 60px;
   overflow: hidden;
-  /* color: rgba(255, 255, 255, 1); */
   color: var(--color-violeta);
   cursor: pointer;
   letter-spacing: 2px;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   transition: all ease 0.5s;
-  /* background: #10b87b; */
   background: var(--color-crema);
 }
 
@@ -41,7 +39,6 @@ a.boton:before {
 
 a.boton:hover {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-  /* background: #12c987; */
   background: var(--color-crema);
 }
 
