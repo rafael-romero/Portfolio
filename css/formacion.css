@@ -54,3 +54,13 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 960px) {
+  .formacion__lista {
+    height: 20rem;
+  }
+  .formacion__item {
+    height: 12rem;
+    scale: 0.8;
+  }
+}

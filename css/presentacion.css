@@ -26,3 +26,10 @@
 .foto-personal {
   margin: 4rem 2rem 2rem;
 }
+
+@media screen and (max-width: 960px) {
+  .presentacion__subtitulo {
+    position: absolute;
+    top: 5.5rem;
+  }
+}

@@ -35,3 +35,21 @@
   font-family: var(--garamond);
   font-weight: 700;
 }
+
+@media screen and (max-width: 960px) {
+  .hblandas__item {
+    height: 10rem;
+  }
+
+  .hblandas__titulo {
+    position: relative;
+    top: 0.5rem;
+  }
+  .hblandas__item > img {
+    scale: 0.7;
+    margin-bottom: 0;
+  }
+  .hblandas__item--subtitulo {
+    margin: 0;
+  }
+}

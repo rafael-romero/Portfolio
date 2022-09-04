@@ -94,3 +94,9 @@ form > label > input::placeholder {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 960px) {
+  .contacto__datos--textarea {
+    height: 2.5rem;
+  }
+}

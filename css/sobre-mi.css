@@ -25,3 +25,14 @@
   font-family: var(--garamond);
   font-weight: 700;
 }
+
+@media screen and (max-width: 960px) {
+  .sobre-mi__parrafo {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  .sobre-mi__titulo {
+    position: relative;
+    top: 1rem;
+  }
+}
