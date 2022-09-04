@@ -25,3 +25,33 @@
   font-family: var(--garamond);
   font-weight: 700;
 }
+
+@media screen and (max-width: 960px) {
+  .sobre-mi__parrafo {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  .sobre-mi__titulo {
+    position: relative;
+    top: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sobre-mi__contenedor--texto {
+    width: 100%;
+    position: relative;
+    top: -2rem;
+  }
+  .sobre-mi__parrafo {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 0 0.5rem;
+  }
+  .sobre-mi__titulo {
+    font-size: 2.5rem;
+    position: relative;
+    top: -1rem;
+  }
+}

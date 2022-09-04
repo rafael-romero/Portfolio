@@ -94,3 +94,33 @@ form > label > input::placeholder {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 960px) {
+  .contacto__datos--textarea {
+    height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contacto__datos {
+    left: 0%;
+    text-align: center;
+    vertical-align: auto;
+  }
+  .contacto__imagen {
+    display: none;
+  }
+  .contacto__datos--boton {
+    left: 8%;
+  }
+  #label-email,
+  #label-asunto {
+    position: relative;
+    left: 0.5rem;
+  }
+  #label-mensaje {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

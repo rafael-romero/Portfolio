@@ -35,3 +35,17 @@
 #menu-contacto {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+  .contenedor__logo {
+    display: none;
+  }
+  .menu {
+    margin-top: 1rem;
+  }
+  .menu__lista {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+  }
+}
