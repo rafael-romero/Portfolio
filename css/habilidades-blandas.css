@@ -26,3 +26,12 @@
   margin: auto;
   margin-bottom: 1rem;
 }
+
+.hblandas__item--subtitulo {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 1rem;
+  font-family: var(--garamond);
+  font-weight: 700;
+}

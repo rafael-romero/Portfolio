@@ -44,16 +44,6 @@ html {
   text-shadow: -5px 1px 3px var(--color-violeta-transparencia);
 }
 
-.sobre-mi__parrafo,
-.hblandas__item--subtitulo {
-  font-size: 2rem;
-  text-align: center;
-  line-height: 2rem;
-  margin: 1rem;
-  font-family: var(--garamond);
-  font-weight: 700;
-}
-
 .header {
   display: flex;
   justify-content: space-around;
