@@ -53,3 +53,23 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .hblandas__titulo {
+    font-size: 2.5rem;
+  }
+  .hblandas__item {
+    height: 10rem;
+  }
+
+  .hblandas__item > img {
+    scale: 0.5;
+  }
+  .hblandas__item--subtitulo {
+    font-size: 1.1rem;
+  }
+  .hblandas__lista {
+    gap: 0;
+    height: 70vh;
+  }
+}

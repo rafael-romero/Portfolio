@@ -11,3 +11,9 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+@media screen and (max-width: 480px) {
+  .footer__titulo {
+    font-size: 0.9rem;
+  }
+}

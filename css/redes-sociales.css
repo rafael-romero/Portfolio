@@ -19,9 +19,20 @@
 
 @media screen and (max-width: 960px) {
   .redes__lista__item {
-    scale: 0.8;
+    scale: 0.9;
     position: relative;
     top: 4rem;
-    left: 4rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .redes__lista {
+    justify-content: space-around;
+  }
+
+  .redes__lista__item {
+    scale: 0.7;
+    margin: 0;
+    position: relative;
+    top: 6rem;
   }
 }

@@ -56,3 +56,32 @@
   -moz-box-shadow: 10px 10px 0px 0px rgba(92, 59, 149, 1);
   box-shadow: 10px 10px 0px 0px rgba(92, 59, 149, 1);
 }
+
+@media screen and (max-width: 480px) {
+  .proyectos__contenedor__botones {
+    justify-content: flex-start;
+    height: 8rem;
+    position: relative;
+    top: -3.5rem;
+  }
+
+  .proyecto__botones {
+    scale: 0.6;
+  }
+
+  .proyectos__contenedor {
+    flex-direction: column;
+  }
+
+  .proyectos__contenedor:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+
+  .proyectos__contenedor > iframe {
+    width: 100%;
+    margin: 0;
+  }
+  .memotest__proyecto {
+    flex-direction: column-reverse;
+  }
+}

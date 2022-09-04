@@ -34,3 +34,9 @@
     gap: 0;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .habilidades__titulo {
+    font-size: 3rem;
+  }
+}

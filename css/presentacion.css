@@ -33,3 +33,23 @@
     top: 5.5rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .presentacion__contenedor {
+    width: 100%;
+  }
+
+  .presentacion__titulo {
+    font-size: 2rem;
+    position: relative;
+    right: 2rem;
+  }
+  .presentacion__subtitulo {
+    font-size: 2.5rem;
+    top: 3rem;
+    right: 3rem;
+  }
+  .presentacion__foto-personal {
+    display: none;
+  }
+}

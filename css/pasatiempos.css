@@ -29,3 +29,17 @@
   width: 10rem;
   height: 10rem;
 }
+
+@media screen and (max-width: 480px) {
+  .pasatiempos {
+    height: 160vh;
+  }
+  .pasatiempos__titulo {
+    font-size: 3rem;
+    position: relative;
+    top: 1.5rem;
+  }
+  .pasatiempos__item {
+    width: 40%;
+  }
+}
