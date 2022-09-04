@@ -16,3 +16,12 @@
   text-align: justify;
   line-height: 2rem;
 }
+
+.sobre-mi__parrafo {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  margin: 1rem;
+  font-family: var(--garamond);
+  font-weight: 700;
+}
