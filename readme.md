@@ -1,18 +1,40 @@
-Portfolio
+## :large_blue_diamond: <h1 style="text-align:center;">Portfolio</h1> :large_blue_diamond:
+
+En este repositorio arme mi portfolio con una muestra de buena parte de todo lo que eh estudiado y realizado desde que arranque hace unos meses a estudiar programacion.
+Este proyecto forma parte de un challenge del programa ONE next education de Oracle & Alura.<br>  
+:pushpin: <em>Como requisitos del proyecto:</em>
+*Debe tener un menu de navegacion.  
+*Debe tener una imagen que se utilizara como banner.  
+*Debe tener una seccion sobre mi.  
+*Debe tener enlaces a redes sociales.  
+*Debe tener una seccion de pasatiempos y habilidades blandas.  
+*Debe tener una seccion de formacion y cursos.  
+*Debe tener una seccion de proyectos realizados.  
+*Debe tener un formulario de contacto.  
+*Debe contener un pie de pagina con informacion de quien desarrollo el sitio.  
+*Debe ser responsive, adaptandose a desktop, table o celular.<br>
+
+:mushroom: **Extra:**  
+-La pagina debe contener un link que le permita ver en una nueva pestaña, una version pdf de su curriculum.<br>
 
 ---
 
-En este repositorio armare mi portfolio con una muestra de todo lo que eh estudiado y realizado desde que arranque hace unos meses a estudiar programacion.
+_<h3>Nota:</h3>_ :exclamation: :exclamation: :exclamation:
 
-aclaracion sobre la utilizacion de la libreria AOS por CDN
--Using package managers Install aos package:
-yarn add aos@next
-or npm install --save aos@next
+<p>En el desarrollo del proyecto utilice la libreria "AOS" para aplicar efectos visuales sobre algunos elementos a medida que uno recorre la pagina.</p> <br>
+<p>Si desea instalar esta libreria puede hacerlo mediante;<br>
 
-## ideas
+- npm install --save aos@next<br>
+- yarn add aos@next <br>
 
--el fondo del formulario de contacto debe estar difuminado/esmerilado o transparente oscuro segun la combinacion de colores
--seccionar el fondo por partes de la web de forma sutil
--los cuadros contenedores de cada seccionn pueden tener un sombreado transparente
--la web debe tener un boton para poder subir con una imagen de un cohete
--el menu superior debe de quedar fijo hasta que baje a "sobre mi" y luego desaparecer
+</p>  
+  
+************************************************************
+<h2>Contactate conmigo</h2>  
+<p>rafa710@gmail.com</p> :mailbox:
+<a href="https://rafael-romero.github.io/Portfolio/">Link a mi portfolio!!!</a>  :octocat:
+     
+************************************************************
+:movie_camera: :movie_camera:
+:movie_camera: :movie_camera: 
+<video src="videos/Portfolio.mp4" width="100%" style="margin:auto;">
