@@ -15,7 +15,6 @@ html {
 }
 
 .body {
-  /* width: 62rem; */
   margin: 0 auto;
   background: var(--color-naranja);
   font-family: var(--helvetica);
@@ -23,21 +22,7 @@ html {
   overflow-x: hidden;
 }
 
-.formacion,
-.pasatiempos,
-.habilidades,
-.habilidades-blandas {
-  margin-top: 2rem;
-}
-
-.presentacion__subtitulo,
-.sobre-mi__titulo,
-.habilidades__titulo,
-.hblandas__titulo,
-.formacion__titulo,
-.proyectos__titulo--de-seccion,
-.proyectos__titulo,
-.pasatiempos__titulo {
+.titulo {
   font-size: 3.5rem;
   font-weight: 800;
   text-align: center;
