@@ -30,11 +30,16 @@ Este proyecto forma parte de un challenge del programa ONE next education de Ora
 </p>  
   
 ************************************************************
+:movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: :movie_camera: 
+![portfolio](https://user-images.githubusercontent.com/95598903/188358652-fbc8f35e-71e9-45c8-8fa8-4c510c10bc5e.gif)
+<br>
+
 <h2>Contactate conmigo</h2>  
 <p>:mailbox: rafa710@gmail.com :mailbox:</p> 
 <a href="https://rafael-romero.github.io/Portfolio/">Link a mi portfolio!!! :octocat:</a>  
      
 ************************************************************
+
 
 
 
